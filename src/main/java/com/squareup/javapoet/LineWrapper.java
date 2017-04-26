@@ -103,4 +103,8 @@ final class LineWrapper {
     buffer.delete(0, buffer.length());
     indentLevel = -1;
   }
+  
+  private void testChangesForScenarionOne(){
+      System.out.println("testChangesForScenarionOne");
+  }
 }
