@@ -239,6 +239,8 @@ public final class AnnotationSpec {
       if (value instanceof Character) {
         return addMember(memberName, "'$L'", characterLiteralWithoutSingleQuotes((char) value));
       }
+      
+      System.out.println("Test: ");
       return addMember(memberName, "$L", value);
     }
 
